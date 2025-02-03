@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Onboarding by vaibhav</title>
+    <link rel="stylesheet" href="media.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="branding">
+            <h1 class="finvestor">finvestor</h1>
+        </div>
+        <header>
+            <h1 class="header-title">Investment Advisor Onboarding</h1>
+        </header>
+        <div class="steps">
+            <div class="step">
+                <h2>1. Complete Risk Profile</h2>
+                <p>Fill out our risk profile form to help us understand your investment preferences.</p>
+                <button onclick="location.href='https://form.typeform.com/to/lvQdR7vJ'">Go to Risk Profile</button>
+            </div>
+            <div class="step">
+                <h2>2. Review Investment Advisory Agreement</h2>
+                <p>Based on your risk profile responses, we'll share an investment advisory agreement for your review.</p>
+                <button onclick="location.href='https://drive.google.com/file/d/1DNBXoSGdwZBN1NdPkvXagKwb1amTEJwj/view?usp=sharing'">View Sample Agreement</button>
+            </div>
+            <div class="step">
+                <h2>3. Schedule KYC and Process Overview</h2>
+                <p>Once you sign the agreement, schedule time with an advisor to complete KYC and understand the process.</p>
+                <button onclick="location.href='https://calendly.com/'">Schedule Meeting</button>
+            </div>
+            <div class="step">
+                <h2>4. Make Payment</h2>
+                <p>If you're ready to work with the advisor, make a payment. Only direct bank transfers are allowed.</p>
+                <button onclick="toggleDropdown()">Payment Details</button>
+                <div class="dropdown" id="dropdown">
+                    <img src="upi-code.png" alt="UPI Payment QR Code">
+                    <div class="bank-details">
+                        <strong>Bank Details:</strong>
+                        <p>Account Name: Investment Advisor</p>
+                        <p>Account Number: XXXX XXXX XXXX</p>
+                        <p>IFSC Code: ABCD0001234</p>
+                        <p>Bank Name: Example Bank</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>Powered by <img src="https://static.wixstatic.com/media/4dc548_af63be5049d040ba83187be05418b4d8~mv2.png/v1/fit/w_2500,h_1330,al_c/4dc548_af63be5049d040ba83187be05418b4d8~mv2.png" alt="Turtle Logo" class="footer-logo"></p>
+        </footer>
+    </div>
+</body>
+</html>

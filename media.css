@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    background-color: #e0f7fa; /* Light blue background */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+}
+
+.branding {
+    text-align: left; /* Align the text to the left */
+    padding: 10px 20px;
+    background-color: #e0f7fa; /* Use the header's background color for uniformity */
+    width: 100%; /* Full width to ensure the background color stretches across */
+}
+
+.finvestor {
+    font-size: 24px; /* Large font size for visibility */
+    color: #000000; /* Dark blue for contrast */
+    font-weight: bold; /* Bold font styling */
+    margin-left: 20px; /* Space from the left edge */
+}
+
+header {
+    padding: 20px;
+    background: linear-gradient(to right, #b3e5fc, #e0f7fa); /* Gradient effect for header */
+    text-align: center; /* Centered header title */
+}
+
+.header-title {
+    color: #01579b; /* Dark blue for contrast */
+    font-size: 24px; /* Increased font size */
+    font-weight: bold; /* Bold font styling */
+}
+
+footer {
+    padding: 10px;
+    background: linear-gradient(to right, #b3e5fc, #e0f7fa); /* Gradient effect for footer */
+}
+
+.steps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.step {
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+    border-left: 10px solid #29b6f6; /* Bright blue left border for emphasis */
+    box-shadow: 0 8px 10px rgba(0,0,0,0.1); /* Enhanced shadow for a "lifted" effect */
+    border-radius: 8px; /* Rounded corners for a softer look */
+    text-align: left; /* Align text to the left */
+}
+
+h1, h2 {
+    color: #0277bd; /* Deep blue for headings to contrast against the light background */
+}
+
+button {
+    background-color: #29b6f6; /* Bright blue */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    border-radius: 20px; /* Rounded buttons for a modern look */
+    font-weight: bold; /* Bold text for clarity */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.15); /* Subtle shadow for depth */
+}
+
+button:hover {
+    background-color: #01579b; /* Darker blue on hover */
+    transform: translateY(-2px); /* Slight raise effect on hover */
+}
+
+.footer-logo {
+    width: 60px; /* Adjusted size for better visibility */
+    height: auto;
+    vertical-align: middle;
+}
+
+footer p {
+    color: #0277bd;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 8px; /* Rounded corners for the dropdown */
+    background-color: #b3e5fc; /* Light background for clarity */
+}
+
+.dropdown img {
+    width: 100%;
+    max-width: 200px;
+    display:block;
+    margin: 0 auto;
+}
+
+.bank-details strong {
+    font-weight: bold;
+}
+
+.bank-details p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
